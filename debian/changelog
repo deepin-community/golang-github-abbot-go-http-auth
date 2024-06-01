@@ -1,5 +1,81 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-abbot-go-http-auth (0.4.0-6) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * [329dd3c] Wrap long lines in changelog entries: 0.4.0-5.
+  * [0691e39] Bump debhelper from old 12 to 13.
+  * [c8f490d] Update standards version to 4.6.2, no changes needed.
+  * [ccb3557] Add golang-golang-x-net-dev to depends.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anton Gladky <gladk@debian.org>  Wed, 18 Oct 2023 21:14:26 +0200
+
+golang-github-abbot-go-http-auth (0.4.0-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints. + golang-github-abbot-go-http-auth-dev: Add
+    Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 23 Nov 2022 23:19:16 +0000
+
+golang-github-abbot-go-http-auth (0.4.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Use DH_GOLANG_INSTALL_EXTRA env to simplify d/rules
+  * Update maintainer address to team+pkg-go@tracker.debian.org
+  * Replace golang-go with golang-any
+  * Bump Standards-Version to 4.5.0
+  * Add autopkgtest-pkg-go
+  * Add Rules-Requires-Root
+
+ -- Shengjing Zhu <zhsj@debian.org>  Mon, 10 Feb 2020 19:51:14 +0800
+
+golang-github-abbot-go-http-auth (0.4.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Standards-Version: 4.4.0
+
+ -- Drew Parsons <dparsons@debian.org>  Tue, 23 Jul 2019 13:25:00 +0800
+
+golang-github-abbot-go-http-auth (0.4.0-2) experimental; urgency=medium
+
+  * Team upload.
+  * Depends, Build-Depends: golang-golang-x-crypto-dev. Closes: #928549.
+
+ -- Drew Parsons <dparsons@debian.org>  Tue, 07 May 2019 11:44:28 +0800
+
+golang-github-abbot-go-http-auth (0.4.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Drew Parsons ]
+  * Standards-Version: 4.3.0
+    - Priority: optional not extra
+  * debhelper compatibility level 12
+    Build-Depends: debhelper-compat (= 12)
+
+ -- Drew Parsons <dparsons@debian.org>  Sun, 05 May 2019 20:13:25 +0800
+
+golang-github-abbot-go-http-auth (0.0~git20150714.0.46b9627-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+  * Remove Built-Using from arch:all -dev package
+
+  [ Michael Stapelberg ]
+  * Set XS-Go-Import-Path
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Thu, 08 Feb 2018 09:24:39 +0100
+
+golang-github-abbot-go-http-auth (0.0~git20150714.0.46b9627-1) unstable; urgency=medium
+
+  * Initial release (Closes: #798318).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 08 Sep 2015 11:28:06 +1000
